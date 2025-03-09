@@ -5,15 +5,108 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    app:flow_verticalGap="20dp"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Hello Poland!"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.143" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout3"
+        android:layout_width="253dp"
+        android:layout_height="279dp"
+        android:background="#CDDC39"
+        tools:layout_editor_absoluteY="185dp">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="189dp"
+        android:layout_height="272dp"
+        android:background="#CDDC39"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout3"
+        app:layout_constraintVertical_bias="0.5"
+        tools:layout_editor_absoluteX="220dp">
+
+        <FrameLayout
+            android:layout_width="245dp"
+            android:layout_height="245dp"
+            android:background="#CDDC39">
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout3"
+        android:layout_width="190dp"
+        android:layout_height="268dp"
+        android:background="#CDDC39"
+        tools:layout_editor_absoluteX="219dp"
+        tools:layout_editor_absoluteY="216dp">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="272dp"
+        android:layout_height="303dp"
+        android:background="#CDDC39"
+        tools:layout_editor_absoluteX="-50dp"
+        tools:layout_editor_absoluteY="454dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="153dp"
+        android:layout_height="98dp"
+        android:text="Button"
+        android:textColor="#169294"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="153dp"
+        android:layout_height="98dp"
+        android:text="Button"
+        android:textColor="#169294"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="153dp"
+        android:layout_height="98dp"
+        android:text="Button"
+        android:textColor="#169294"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="153dp"
+        android:layout_height="98dp"
+        android:text="Button"
+        android:textColor="#169294"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="477dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
